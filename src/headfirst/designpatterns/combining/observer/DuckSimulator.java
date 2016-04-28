@@ -1,5 +1,9 @@
 package headfirst.designpatterns.combining.observer;
-
+/**
+ * 
+ * (Commentator sscholz-tgm)
+ * main Class / usage of the different classes and output
+ */
 public class DuckSimulator {
 	public static void main(String[] args) {
 		DuckSimulator simulator = new DuckSimulator();

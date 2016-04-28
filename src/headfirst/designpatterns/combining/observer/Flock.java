@@ -2,7 +2,16 @@ package headfirst.designpatterns.combining.observer;
 
 import java.util.Iterator;
 import java.util.ArrayList;
-
+/**
+ * 
+ * (Commentator sscholz-tgm)
+ * Observer Pattern
+ * has a "concrete observable"
+ * and is a Quackable
+ * 
+ * and uses a Quackable iterator
+ * => Iterator Pattern
+ */
 public class Flock implements Quackable {
 	ArrayList<Quackable> ducks = new ArrayList<Quackable>();
   

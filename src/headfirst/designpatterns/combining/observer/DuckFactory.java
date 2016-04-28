@@ -1,5 +1,13 @@
 package headfirst.designpatterns.combining.observer;
 
+/**
+ * 
+ * (Commentator sscholz-tgm)
+ * Concrete Factory
+ * creates "standard" Quackables with
+ * the specific Duck Subclasses
+ *
+ */
 public class DuckFactory extends AbstractDuckFactory {
   
 	public Quackable createMallardDuck() {
