@@ -1,5 +1,12 @@
 package headfirst.designpatterns.combining.observer;
-
+/**
+ * 
+ * (Commentator sscholz-tgm)
+ * Adapter Pattern / Proxy Pattern  "adapter" class that does the adapting
+ * comparable to Decorator Pattern "Decorator" Class (but honk instead of quack)
+ * (Constructor takes a goose)
+ * Adapter Pattern or Proxy Pattern
+ */
 public class GooseAdapter implements Quackable {
 	Goose goose;
 	Observable observable;

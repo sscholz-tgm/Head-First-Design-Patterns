@@ -1,5 +1,11 @@
 package headfirst.designpatterns.combining.observer;
-
+/**
+ * 
+ * (Commentator sscholz-tgm)
+ * Observer Pattern
+ * the concrete Observer
+ * => implements Observer
+ */
 public class Quackologist implements Observer {
  
 	public void update(QuackObservable duck) {
@@ -9,4 +15,5 @@ public class Quackologist implements Observer {
 	public String toString() {
 		return "Quackologist";
 	}
+	
 }

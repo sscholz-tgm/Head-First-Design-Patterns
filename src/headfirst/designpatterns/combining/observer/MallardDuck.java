@@ -1,5 +1,12 @@
 package headfirst.designpatterns.combining.observer;
 
+/**
+ * 
+ * (Commentator sscholz-tgm)
+ * Observer Pattern
+ * has a "concrete observable"
+ * and is a Quackable
+ */
 public class MallardDuck implements Quackable {
 	Observable observable;
  
